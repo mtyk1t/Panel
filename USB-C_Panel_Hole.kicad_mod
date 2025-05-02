@@ -1,0 +1,187 @@
+(footprint "USB-C_Panel_Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "USB-C panel")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a533d946-af3f-4de7-a238-59566169320a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB-C_Panel_Hole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8dfb7afd-1bef-4c94-8c39-146375f97459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f5e8cda-94a2-4a0f-8a14-7c94b45409ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d21ccac-4c84-414c-ae51-0714dd7a0a76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95d288ff-022b-4b18-858d-78e4d702fd10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -5.5 0)
+		(end -5.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ba88b05e-66f3-46cc-b866-eded82396269")
+	)
+	(fp_line
+		(start -4.5 -3.5)
+		(end 4.5 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "303e1a77-39e7-4429-a487-40b97c5e3634")
+	)
+	(fp_line
+		(start 4.5 1)
+		(end -4.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddcdb98f-5acc-4da3-baf1-62949a9dbb0a")
+	)
+	(fp_line
+		(start 5.5 -2.5)
+		(end 5.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6458aa55-453d-4e34-bd47-a5a70c2b0a29")
+	)
+	(fp_arc
+		(start -5.5 -2.5)
+		(mid -5.207107 -3.207107)
+		(end -4.5 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "873ed523-ff54-4b61-b942-07350bdae587")
+	)
+	(fp_arc
+		(start -4.5 1)
+		(mid -5.207107 0.707107)
+		(end -5.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a48bab54-90de-4826-a724-21f2172c5b6a")
+	)
+	(fp_arc
+		(start 4.5 -3.5)
+		(mid 5.207107 -3.207107)
+		(end 5.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46f09021-662b-4b33-989d-34225c9a0906")
+	)
+	(fp_arc
+		(start 5.5 0)
+		(mid 5.207107 0.707107)
+		(end 4.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8f77aca3-d16e-4d00-a500-69172f06e258")
+	)
+	(fp_rect
+		(start -5.5 -3.5)
+		(end 5.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1dcd81d9-2b1f-4733-a3d7-b8d595ef93ce")
+	)
+	(fp_rect
+		(start -4.15 -2.4)
+		(end 4.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "38b31302-33c3-40a5-8c7d-cf4dd07918ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "844542df-f9ab-4b53-b7e6-8b41c95c8194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
